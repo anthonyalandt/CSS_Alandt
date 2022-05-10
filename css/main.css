@@ -1,0 +1,82 @@
+.article{
+	font-family: 'Basier';
+  src: url('BasierSquare-Regular.woff2') format('woff2');
+}
+.site_banner{
+	border-top: 8px; color: black;
+	border-bottom: 1px; color: black;
+	padding: 20px;
+	text-align: center;
+	width: 330px;
+}
+.h3{
+	font-family: 'Basier';
+  src: url('BasierSquare-Regular.woff2') format('woff2');
+  font-weight: bold;
+  size: 14px;
+  color: #de2f23;
+  border-left: 1px;
+  border-right: 1px;
+}
+.article{
+	max-width: 900px;
+	border-left: 5%;
+	border-right: 5%;
+}
+.story_header{ 
+	font-family: 'Basier';
+  src: url('BasierSquare-Regular.woff2') format('woff2');
+  size: 20px;
+}
+.byline{
+	font-weight: bold;
+}
+.story_copy{
+	font-family: 'Pensum';
+  src: url('PensumPro-Book.woff2') format('woff2');
+  font-size: 20px;
+}
+.img1.png{
+	width: 100%;
+}
+.img2.jpg{
+	width: 100%;
+}
+.photo_caption{
+	color: gray;
+	size: 14px;
+	margin-top: 0px;
+}
+.footer{
+	font-family: 'Basier';
+  src: url('BasierSquare-Regular.woff2') format('woff2');
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer_info{
+	color: gray;
+	size: 14px;
+}
+.href{
+	color: black;
+}
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'Basier';
+  src: url('BasierSquare-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Basier';
+  font-weight: bold;
+  src: url('BasierSquare-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pensum';
+  src: url('PensumPro-Book.woff2') format('woff2');
+}
